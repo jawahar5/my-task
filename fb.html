@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#">myFB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Link-1</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading"> Story Form </div>
+                    <div class="panel-body">
+                        <form id="story-form">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input id="name" name="name" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea id="message" name="message" class="form-control"></textarea>
+                            </div>
+                            <button class="btn btn-default">Post</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading"> Story List </div>
+        <div class="panel-body" >
+            <div class="list-group" id="story-list">
+                <div class="alert alert-info">
+                    &mdash; Name  <i class="glyphicon glyphicon-trash pull-right"></i><hr/>
+                    <p> Story text.... </p>
+                </div>
+                <div class="alert alert-info">
+                    &mdash; Name  <i class="glyphicon glyphicon-trash pull-right"></i><hr/>
+                    <p> Story text.... </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="./css/bootstrap/js/bootstrap.js"></script>
+
+
+
+</body>
+
+</html>
