@@ -1,3 +1,5 @@
+https://egghead.io/lessons/react-write-hello-world-with-raw-react-apis
+https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
 
 
 This is simple my FaceBook, where people can add,view,delete stories
